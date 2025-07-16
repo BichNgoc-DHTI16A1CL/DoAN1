@@ -46,20 +46,131 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="BaoCaoThongKe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaoCaoThongKe.Designer.cs">
+      <DependentUpon>BaoCaoThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapNhatDahMuc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CapNhatDahMuc.Designer.cs">
+      <DependentUpon>CapNhatDahMuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DangKiTaiKhoan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="DangKiTaiKhoan.Designer.cs">
+      <DependentUpon>DangKiTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DanhMucMonAn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DanhMucMonAn.Designer.cs">
+      <DependentUpon>DanhMucMonAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DonHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DonHang.Designer.cs">
+      <DependentUpon>DonHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GioHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GioHang.Designer.cs">
+      <DependentUpon>GioHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachHangDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachHangDangNhap.Designer.cs">
+      <DependentUpon>KhachHangDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhoNLieu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KhoNLieu.Designer.cs">
+      <DependentUpon>KhoNLieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanVien.Designer.cs">
+      <DependentUpon>NhanVien.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test.cs">
+    <Compile Include="QuanLiDonHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuanLiDonHang.Designer.cs">
+      <DependentUpon>QuanLiDonHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLiKhachHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuanLiKhachHang.Designer.cs">
+      <DependentUpon>QuanLiKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuenMatKhau.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Test.Designer.cs">
-      <DependentUpon>Test.cs</DependentUpon>
+    <Compile Include="QuenMatKhau.Designer.cs">
+      <DependentUpon>QuenMatKhau.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThongTinNVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ThongTinNVien.Designer.cs">
+      <DependentUpon>ThongTinNVien.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BaoCaoThongKe.resx">
+      <DependentUpon>BaoCaoThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapNhatDahMuc.resx">
+      <DependentUpon>CapNhatDahMuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangKiTaiKhoan.resx">
+      <DependentUpon>DangKiTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhMucMonAn.resx">
+      <DependentUpon>DanhMucMonAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DonHang.resx">
+      <DependentUpon>DonHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GioHang.resx">
+      <DependentUpon>GioHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachHangDangNhap.resx">
+      <DependentUpon>KhachHangDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhoNLieu.resx">
+      <DependentUpon>KhoNLieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanVien.resx">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -68,7 +179,20 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="QuanLiDonHang.resx">
+      <DependentUpon>QuanLiDonHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLiKhachHang.resx">
+      <DependentUpon>QuanLiKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuenMatKhau.resx">
+      <DependentUpon>QuenMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongTinNVien.resx">
+      <DependentUpon>ThongTinNVien.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -81,6 +205,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HinhAnh\banner.jpg" />
+    <Content Include="HinhAnh\banner2.jpg" />
+    <Content Include="HinhAnh\banner3.jpg" />
+    <Content Include="HinhAnh\garan.jpg" />
+    <Content Include="HinhAnh\khoaitaychien.jpg" />
+    <Content Include="HinhAnh\logo.jpg" />
+    <Content Include="HinhAnh\nuocduachuot.jpg" />
+    <Content Include="HinhAnh\nuocduahau.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

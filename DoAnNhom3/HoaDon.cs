@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace DoAnNhom3
 {
-    public partial class GioHang: UserControl
+    public partial class HoaDon: UserControl
     {
-        public GioHang()
+        public HoaDon()
         {
             InitializeComponent();
-        }
-
-        private void btthanhtoan_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

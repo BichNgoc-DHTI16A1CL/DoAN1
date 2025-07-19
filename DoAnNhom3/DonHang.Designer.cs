@@ -37,8 +37,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btthanhtoanKH = new System.Windows.Forms.Button();
-            this.rdsizeL = new System.Windows.Forms.RadioButton();
-            this.rdsizeM = new System.Windows.Forms.RadioButton();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,11 +45,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(116, 30);
+            this.label1.Location = new System.Drawing.Point(89, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 27);
+            this.label1.Size = new System.Drawing.Size(99, 27);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Menu";
+            this.label1.Text = "Giỏ hàng";
             // 
             // btthemvaogiohang
             // 
@@ -81,7 +80,7 @@
             // 
             // txbsoluongmenuKH
             // 
-            this.txbsoluongmenuKH.Location = new System.Drawing.Point(41, 245);
+            this.txbsoluongmenuKH.Location = new System.Drawing.Point(41, 168);
             this.txbsoluongmenuKH.Name = "txbsoluongmenuKH";
             this.txbsoluongmenuKH.Size = new System.Drawing.Size(193, 20);
             this.txbsoluongmenuKH.TabIndex = 30;
@@ -90,7 +89,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(37, 221);
+            this.label4.Location = new System.Drawing.Point(37, 144);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(78, 21);
             this.label4.TabIndex = 29;
@@ -100,11 +99,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(37, 144);
+            this.label3.Location = new System.Drawing.Point(37, 210);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 21);
+            this.label3.Size = new System.Drawing.Size(81, 21);
             this.label3.TabIndex = 27;
-            this.label3.Text = "Size";
+            this.label3.Text = "Tổng tiền";
             // 
             // label5
             // 
@@ -118,9 +117,8 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.btthanhtoanKH);
-            this.panel1.Controls.Add(this.rdsizeL);
-            this.panel1.Controls.Add(this.rdsizeM);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.txbsoluongmenuKH);
             this.panel1.Controls.Add(this.btthemvaogiohang);
@@ -143,29 +141,12 @@
             this.btthanhtoanKH.Text = "Thanh toán";
             this.btthanhtoanKH.UseVisualStyleBackColor = true;
             // 
-            // rdsizeL
+            // textBox1
             // 
-            this.rdsizeL.AutoSize = true;
-            this.rdsizeL.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdsizeL.Location = new System.Drawing.Point(121, 174);
-            this.rdsizeL.Name = "rdsizeL";
-            this.rdsizeL.Size = new System.Drawing.Size(36, 23);
-            this.rdsizeL.TabIndex = 38;
-            this.rdsizeL.TabStop = true;
-            this.rdsizeL.Text = "L";
-            this.rdsizeL.UseVisualStyleBackColor = true;
-            // 
-            // rdsizeM
-            // 
-            this.rdsizeM.AutoSize = true;
-            this.rdsizeM.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdsizeM.Location = new System.Drawing.Point(63, 174);
-            this.rdsizeM.Name = "rdsizeM";
-            this.rdsizeM.Size = new System.Drawing.Size(41, 23);
-            this.rdsizeM.TabIndex = 37;
-            this.rdsizeM.TabStop = true;
-            this.rdsizeM.Text = "M";
-            this.rdsizeM.UseVisualStyleBackColor = true;
+            this.textBox1.Location = new System.Drawing.Point(41, 234);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(193, 20);
+            this.textBox1.TabIndex = 40;
             // 
             // DonHang
             // 
@@ -193,8 +174,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.RadioButton rdsizeL;
-        private System.Windows.Forms.RadioButton rdsizeM;
         private System.Windows.Forms.Button btthanhtoanKH;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

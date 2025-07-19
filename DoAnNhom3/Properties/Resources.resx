@@ -118,31 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="nuocduachuot" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\HinhAnh\nuocduachuot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="banner2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\HinhAnh\banner2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="garan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\HinhAnh\garan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="banner3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\HinhAnh\banner3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="duigarann" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\HinhAnh\duigarann.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\HinhAnh\banner.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="nuoccam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\HinhAnh\nuoccam.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\HinhAnh\banner3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nuocduachuot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\HinhAnh\nuocduachuot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="canhga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\HinhAnh\canhga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\HinhAnh\logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="garan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\HinhAnh\garan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="garan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\HinhAnh\garan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="duigaran" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\HinhAnh\duigaran.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="khoaitaychien" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\HinhAnh\khoaitaychien.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="banner2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\HinhAnh\banner2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="nuocduahau" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\HinhAnh\nuocduahau.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="garan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\HinhAnh\garan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="khoaitaylac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\HinhAnh\khoaitaylac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

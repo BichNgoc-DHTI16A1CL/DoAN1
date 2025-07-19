@@ -35,12 +35,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.rdsizedui = new System.Windows.Forms.RadioButton();
-            this.rdsizenguyencon = new System.Windows.Forms.RadioButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.rdsizeM = new System.Windows.Forms.RadioButton();
-            this.rdsizeL = new System.Windows.Forms.RadioButton();
             this.btthanhtoanKH = new System.Windows.Forms.Button();
+            this.rdsizeL = new System.Windows.Forms.RadioButton();
+            this.rdsizeM = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,7 +55,7 @@
             // btthemvaogiohang
             // 
             this.btthemvaogiohang.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btthemvaogiohang.Location = new System.Drawing.Point(33, 317);
+            this.btthemvaogiohang.Location = new System.Drawing.Point(33, 300);
             this.btthemvaogiohang.Name = "btthemvaogiohang";
             this.btthemvaogiohang.Size = new System.Drawing.Size(103, 56);
             this.btthemvaogiohang.TabIndex = 34;
@@ -69,7 +67,11 @@
             this.cbbTenmonmenuKH.FormattingEnabled = true;
             this.cbbTenmonmenuKH.Items.AddRange(new object[] {
             "Gà rán nguyên con",
+            "Cánh gà rán",
+            "Đùi gà rán",
             "Khoai tây chiên",
+            "Khoai tây lắc phô mai",
+            "Nước cam ép",
             "Nước ép dưa hấu",
             "Nước ép dưa chuột"});
             this.cbbTenmonmenuKH.Location = new System.Drawing.Point(41, 102);
@@ -79,7 +81,7 @@
             // 
             // txbsoluongmenuKH
             // 
-            this.txbsoluongmenuKH.Location = new System.Drawing.Point(41, 263);
+            this.txbsoluongmenuKH.Location = new System.Drawing.Point(41, 245);
             this.txbsoluongmenuKH.Name = "txbsoluongmenuKH";
             this.txbsoluongmenuKH.Size = new System.Drawing.Size(193, 20);
             this.txbsoluongmenuKH.TabIndex = 30;
@@ -88,7 +90,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(37, 239);
+            this.label4.Location = new System.Drawing.Point(37, 221);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(78, 21);
             this.label4.TabIndex = 29;
@@ -114,66 +116,38 @@
             this.label5.TabIndex = 26;
             this.label5.Text = "Tên món ăn";
             // 
-            // rdsizedui
-            // 
-            this.rdsizedui.AutoSize = true;
-            this.rdsizedui.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdsizedui.Location = new System.Drawing.Point(50, 169);
-            this.rdsizedui.Name = "rdsizedui";
-            this.rdsizedui.Size = new System.Drawing.Size(48, 23);
-            this.rdsizedui.TabIndex = 35;
-            this.rdsizedui.TabStop = true;
-            this.rdsizedui.Text = "Đùi";
-            this.rdsizedui.UseVisualStyleBackColor = true;
-            // 
-            // rdsizenguyencon
-            // 
-            this.rdsizenguyencon.AutoSize = true;
-            this.rdsizenguyencon.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdsizenguyencon.Location = new System.Drawing.Point(108, 169);
-            this.rdsizenguyencon.Name = "rdsizenguyencon";
-            this.rdsizenguyencon.Size = new System.Drawing.Size(100, 23);
-            this.rdsizenguyencon.TabIndex = 36;
-            this.rdsizenguyencon.TabStop = true;
-            this.rdsizenguyencon.Text = "Nguyên con";
-            this.rdsizenguyencon.UseVisualStyleBackColor = true;
-            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.btthanhtoanKH);
             this.panel1.Controls.Add(this.rdsizeL);
             this.panel1.Controls.Add(this.rdsizeM);
-            this.panel1.Controls.Add(this.rdsizenguyencon);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.rdsizedui);
             this.panel1.Controls.Add(this.txbsoluongmenuKH);
             this.panel1.Controls.Add(this.btthemvaogiohang);
             this.panel1.Controls.Add(this.cbbTenmonmenuKH);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(288, 42);
+            this.panel1.Location = new System.Drawing.Point(216, 49);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(289, 410);
             this.panel1.TabIndex = 37;
             // 
-            // rdsizeM
+            // btthanhtoanKH
             // 
-            this.rdsizeM.AutoSize = true;
-            this.rdsizeM.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdsizeM.Location = new System.Drawing.Point(50, 198);
-            this.rdsizeM.Name = "rdsizeM";
-            this.rdsizeM.Size = new System.Drawing.Size(41, 23);
-            this.rdsizeM.TabIndex = 37;
-            this.rdsizeM.TabStop = true;
-            this.rdsizeM.Text = "M";
-            this.rdsizeM.UseVisualStyleBackColor = true;
+            this.btthanhtoanKH.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btthanhtoanKH.Location = new System.Drawing.Point(162, 300);
+            this.btthanhtoanKH.Name = "btthanhtoanKH";
+            this.btthanhtoanKH.Size = new System.Drawing.Size(103, 56);
+            this.btthanhtoanKH.TabIndex = 39;
+            this.btthanhtoanKH.Text = "Thanh toán";
+            this.btthanhtoanKH.UseVisualStyleBackColor = true;
             // 
             // rdsizeL
             // 
             this.rdsizeL.AutoSize = true;
             this.rdsizeL.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdsizeL.Location = new System.Drawing.Point(108, 198);
+            this.rdsizeL.Location = new System.Drawing.Point(121, 174);
             this.rdsizeL.Name = "rdsizeL";
             this.rdsizeL.Size = new System.Drawing.Size(36, 23);
             this.rdsizeL.TabIndex = 38;
@@ -181,15 +155,17 @@
             this.rdsizeL.Text = "L";
             this.rdsizeL.UseVisualStyleBackColor = true;
             // 
-            // btthanhtoanKH
+            // rdsizeM
             // 
-            this.btthanhtoanKH.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btthanhtoanKH.Location = new System.Drawing.Point(160, 317);
-            this.btthanhtoanKH.Name = "btthanhtoanKH";
-            this.btthanhtoanKH.Size = new System.Drawing.Size(103, 56);
-            this.btthanhtoanKH.TabIndex = 39;
-            this.btthanhtoanKH.Text = "Thanh toán";
-            this.btthanhtoanKH.UseVisualStyleBackColor = true;
+            this.rdsizeM.AutoSize = true;
+            this.rdsizeM.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdsizeM.Location = new System.Drawing.Point(63, 174);
+            this.rdsizeM.Name = "rdsizeM";
+            this.rdsizeM.Size = new System.Drawing.Size(41, 23);
+            this.rdsizeM.TabIndex = 37;
+            this.rdsizeM.TabStop = true;
+            this.rdsizeM.Text = "M";
+            this.rdsizeM.UseVisualStyleBackColor = true;
             // 
             // DonHang
             // 
@@ -200,7 +176,7 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "DonHang";
-            this.Size = new System.Drawing.Size(839, 531);
+            this.Size = new System.Drawing.Size(692, 488);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -216,8 +192,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.RadioButton rdsizedui;
-        private System.Windows.Forms.RadioButton rdsizenguyencon;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.RadioButton rdsizeL;
         private System.Windows.Forms.RadioButton rdsizeM;

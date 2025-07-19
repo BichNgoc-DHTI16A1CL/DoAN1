@@ -106,6 +106,54 @@
     <Compile Include="menu.Designer.cs">
       <DependentUpon>menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="menucanhga.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="menucanhga.Designer.cs">
+      <DependentUpon>menucanhga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuduiga.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="menuduiga.Designer.cs">
+      <DependentUpon>menuduiga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menukhoaitay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="menukhoaitay.Designer.cs">
+      <DependentUpon>menukhoaitay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menukhoaitaylac.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="menukhoaitaylac.Designer.cs">
+      <DependentUpon>menukhoaitaylac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menumonan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="menumonan.Designer.cs">
+      <DependentUpon>menumonan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menunccam.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="menunccam.Designer.cs">
+      <DependentUpon>menunccam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuncduachuot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="menuncduachuot.Designer.cs">
+      <DependentUpon>menuncduachuot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuncduahau.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="menuncduahau.Designer.cs">
+      <DependentUpon>menuncduahau.cs</DependentUpon>
+    </Compile>
     <Compile Include="NhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +179,12 @@
     </Compile>
     <Compile Include="QuenMatKhau.Designer.cs">
       <DependentUpon>QuenMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
     </Compile>
     <Compile Include="ThongTinNVien.cs">
       <SubType>UserControl</SubType>
@@ -168,6 +222,30 @@
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="menucanhga.resx">
+      <DependentUpon>menucanhga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuduiga.resx">
+      <DependentUpon>menuduiga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menukhoaitay.resx">
+      <DependentUpon>menukhoaitay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menukhoaitaylac.resx">
+      <DependentUpon>menukhoaitaylac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menumonan.resx">
+      <DependentUpon>menumonan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menunccam.resx">
+      <DependentUpon>menunccam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuncduachuot.resx">
+      <DependentUpon>menuncduachuot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuncduahau.resx">
+      <DependentUpon>menuncduahau.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NhanVien.resx">
       <DependentUpon>NhanVien.cs</DependentUpon>
     </EmbeddedResource>
@@ -190,6 +268,9 @@
     <EmbeddedResource Include="QuenMatKhau.resx">
       <DependentUpon>QuenMatKhau.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="test.resx">
+      <DependentUpon>test.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ThongTinNVien.resx">
       <DependentUpon>ThongTinNVien.cs</DependentUpon>
     </EmbeddedResource>
@@ -210,9 +291,15 @@
     <Content Include="HinhAnh\banner.jpg" />
     <Content Include="HinhAnh\banner2.jpg" />
     <Content Include="HinhAnh\banner3.jpg" />
+    <Content Include="HinhAnh\canhga.jpg" />
+    <Content Include="HinhAnh\duigaran.jpg" />
+    <Content Include="HinhAnh\duigarann.jpg" />
+    <Content Include="HinhAnh\duiiga.jpg" />
     <Content Include="HinhAnh\garan.jpg" />
     <Content Include="HinhAnh\khoaitaychien.jpg" />
+    <Content Include="HinhAnh\khoaitaylac.jpg" />
     <Content Include="HinhAnh\logo.jpg" />
+    <Content Include="HinhAnh\nuoccam.jpg" />
     <Content Include="HinhAnh\nuocduachuot.jpg" />
     <Content Include="HinhAnh\nuocduahau.jpg" />
   </ItemGroup>

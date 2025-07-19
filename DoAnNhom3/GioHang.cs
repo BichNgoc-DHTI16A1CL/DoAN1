@@ -16,5 +16,10 @@ namespace DoAnNhom3
         {
             InitializeComponent();
         }
+
+        private void btthanhtoan_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

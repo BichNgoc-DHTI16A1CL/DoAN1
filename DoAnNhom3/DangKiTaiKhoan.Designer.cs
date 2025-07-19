@@ -44,7 +44,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel1.BackColor = System.Drawing.Color.RosyBrown;
             this.panel1.Controls.Add(this.btdangki);
             this.panel1.Controls.Add(this.txbmatkhau);
             this.panel1.Controls.Add(this.txbsdt);
@@ -55,7 +55,7 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(267, 47);
+            this.panel1.Location = new System.Drawing.Point(331, 86);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(266, 356);
             this.panel1.TabIndex = 1;
@@ -134,7 +134,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.Control;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(13, 55);
             this.label2.Name = "label2";
@@ -160,7 +160,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DoAnNhom3.Properties.Resources.banner2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(904, 532);
             this.Controls.Add(this.panel1);
             this.Name = "DangKiTaiKhoan";
             this.Text = "DangKiTaiKhoan";

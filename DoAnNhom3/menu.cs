@@ -26,5 +26,10 @@ namespace DoAnNhom3
         {
 
         }
+
+        private void gioHang1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

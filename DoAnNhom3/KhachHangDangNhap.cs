@@ -16,5 +16,10 @@ namespace DoAnNhom3
         {
             InitializeComponent();
         }
+
+        private void baoCaoThongKe1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

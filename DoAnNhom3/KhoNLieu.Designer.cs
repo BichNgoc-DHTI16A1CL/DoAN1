@@ -37,7 +37,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(303, 62);
+            this.label1.Location = new System.Drawing.Point(237, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(230, 27);
             this.label1.TabIndex = 2;
@@ -46,9 +46,9 @@
             // dgvkhonguyenlieu
             // 
             this.dgvkhonguyenlieu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvkhonguyenlieu.Location = new System.Drawing.Point(98, 109);
+            this.dgvkhonguyenlieu.Location = new System.Drawing.Point(98, 95);
             this.dgvkhonguyenlieu.Name = "dgvkhonguyenlieu";
-            this.dgvkhonguyenlieu.Size = new System.Drawing.Size(653, 344);
+            this.dgvkhonguyenlieu.Size = new System.Drawing.Size(505, 344);
             this.dgvkhonguyenlieu.TabIndex = 3;
             // 
             // KhoNLieu
@@ -58,7 +58,7 @@
             this.Controls.Add(this.dgvkhonguyenlieu);
             this.Controls.Add(this.label1);
             this.Name = "KhoNLieu";
-            this.Size = new System.Drawing.Size(832, 531);
+            this.Size = new System.Drawing.Size(692, 488);
             ((System.ComponentModel.ISupportInitialize)(this.dgvkhonguyenlieu)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

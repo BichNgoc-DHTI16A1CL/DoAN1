@@ -50,7 +50,7 @@
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(231, 42);
+            this.panel1.Location = new System.Drawing.Point(271, 96);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(363, 352);
             this.panel1.TabIndex = 0;
@@ -137,7 +137,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DoAnNhom3.Properties.Resources.logo;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(904, 532);
             this.Controls.Add(this.panel1);
             this.Name = "QuenMatKhau";
             this.Text = "QuenMatKhau";

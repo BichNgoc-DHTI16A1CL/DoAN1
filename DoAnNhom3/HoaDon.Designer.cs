@@ -34,7 +34,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txbtenmonan = new System.Windows.Forms.TextBox();
-            this.ptbmonanthanhtoan = new System.Windows.Forms.PictureBox();
             this.txbdongiathahtoan = new System.Windows.Forms.TextBox();
             this.txbslgthanhtoan = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -43,12 +42,17 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txbngaylaphoadon = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.ptbmonanthanhtoan = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.tbxtongtien = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbmonanthanhtoan)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.tbxtongtien);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.txbngaylaphoadon);
@@ -99,7 +103,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(156, 218);
+            this.label2.Location = new System.Drawing.Point(155, 223);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 21);
             this.label2.TabIndex = 33;
@@ -107,30 +111,21 @@
             // 
             // txbtenmonan
             // 
-            this.txbtenmonan.Location = new System.Drawing.Point(14, 292);
+            this.txbtenmonan.Location = new System.Drawing.Point(3, 192);
             this.txbtenmonan.Name = "txbtenmonan";
             this.txbtenmonan.Size = new System.Drawing.Size(152, 20);
             this.txbtenmonan.TabIndex = 34;
             // 
-            // ptbmonanthanhtoan
-            // 
-            this.ptbmonanthanhtoan.Location = new System.Drawing.Point(38, 204);
-            this.ptbmonanthanhtoan.Name = "ptbmonanthanhtoan";
-            this.ptbmonanthanhtoan.Size = new System.Drawing.Size(92, 82);
-            this.ptbmonanthanhtoan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptbmonanthanhtoan.TabIndex = 35;
-            this.ptbmonanthanhtoan.TabStop = false;
-            // 
             // txbdongiathahtoan
             // 
-            this.txbdongiathahtoan.Location = new System.Drawing.Point(238, 244);
+            this.txbdongiathahtoan.Location = new System.Drawing.Point(237, 249);
             this.txbdongiathahtoan.Name = "txbdongiathahtoan";
             this.txbdongiathahtoan.Size = new System.Drawing.Size(115, 20);
             this.txbdongiathahtoan.TabIndex = 36;
             // 
             // txbslgthanhtoan
             // 
-            this.txbslgthanhtoan.Location = new System.Drawing.Point(240, 218);
+            this.txbslgthanhtoan.Location = new System.Drawing.Point(239, 223);
             this.txbslgthanhtoan.Name = "txbslgthanhtoan";
             this.txbslgthanhtoan.Size = new System.Drawing.Size(57, 20);
             this.txbslgthanhtoan.TabIndex = 37;
@@ -139,7 +134,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(154, 244);
+            this.label3.Location = new System.Drawing.Point(153, 249);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 21);
             this.label3.TabIndex = 38;
@@ -182,12 +177,38 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(130, 347);
+            this.button1.Location = new System.Drawing.Point(130, 367);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(129, 28);
             this.button1.TabIndex = 43;
             this.button1.Text = "Thanh toán";
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // ptbmonanthanhtoan
+            // 
+            this.ptbmonanthanhtoan.Location = new System.Drawing.Point(34, 218);
+            this.ptbmonanthanhtoan.Name = "ptbmonanthanhtoan";
+            this.ptbmonanthanhtoan.Size = new System.Drawing.Size(92, 82);
+            this.ptbmonanthanhtoan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbmonanthanhtoan.TabIndex = 35;
+            this.ptbmonanthanhtoan.TabStop = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(150, 273);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(81, 21);
+            this.label7.TabIndex = 45;
+            this.label7.Text = "Tổng tiền";
+            // 
+            // tbxtongtien
+            // 
+            this.tbxtongtien.Location = new System.Drawing.Point(237, 275);
+            this.tbxtongtien.Name = "tbxtongtien";
+            this.tbxtongtien.Size = new System.Drawing.Size(115, 20);
+            this.tbxtongtien.TabIndex = 44;
             // 
             // HoaDon
             // 
@@ -220,5 +241,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txbsdtkh;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox tbxtongtien;
     }
 }

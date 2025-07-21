@@ -30,7 +30,7 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.btdangxuatKH = new System.Windows.Forms.Button();
-            this.btmuahangKH = new System.Windows.Forms.Button();
+            this.btqlitaikhoanKH = new System.Windows.Forms.Button();
             this.btmenuKH = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -51,7 +51,7 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.btdangxuatKH);
-            this.panel1.Controls.Add(this.btmuahangKH);
+            this.panel1.Controls.Add(this.btqlitaikhoanKH);
             this.panel1.Controls.Add(this.btmenuKH);
             this.panel1.Location = new System.Drawing.Point(2, 138);
             this.panel1.Name = "panel1";
@@ -69,16 +69,16 @@
             this.btdangxuatKH.Text = "Đăng xuất";
             this.btdangxuatKH.UseVisualStyleBackColor = true;
             // 
-            // btmuahangKH
+            // btqlitaikhoanKH
             // 
-            this.btmuahangKH.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btmuahangKH.ForeColor = System.Drawing.Color.Black;
-            this.btmuahangKH.Location = new System.Drawing.Point(69, 170);
-            this.btmuahangKH.Name = "btmuahangKH";
-            this.btmuahangKH.Size = new System.Drawing.Size(127, 45);
-            this.btmuahangKH.TabIndex = 7;
-            this.btmuahangKH.Text = "Mua hàng";
-            this.btmuahangKH.UseVisualStyleBackColor = true;
+            this.btqlitaikhoanKH.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btqlitaikhoanKH.ForeColor = System.Drawing.Color.Black;
+            this.btqlitaikhoanKH.Location = new System.Drawing.Point(69, 170);
+            this.btqlitaikhoanKH.Name = "btqlitaikhoanKH";
+            this.btqlitaikhoanKH.Size = new System.Drawing.Size(127, 45);
+            this.btqlitaikhoanKH.TabIndex = 7;
+            this.btqlitaikhoanKH.Text = "Tài khoản";
+            this.btqlitaikhoanKH.UseVisualStyleBackColor = true;
             // 
             // btmenuKH
             // 
@@ -211,7 +211,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btmuahangKH;
+        private System.Windows.Forms.Button btqlitaikhoanKH;
         private System.Windows.Forms.Button btmenuKH;
         private System.Windows.Forms.Button btdangxuatKH;
         private System.Windows.Forms.Panel panel2;

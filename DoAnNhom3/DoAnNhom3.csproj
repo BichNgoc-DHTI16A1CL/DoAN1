@@ -82,11 +82,11 @@
     <Compile Include="DonHang.Designer.cs">
       <DependentUpon>DonHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="GioHang.cs">
+    <Compile Include="HoaDon.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GioHang.Designer.cs">
-      <DependentUpon>GioHang.cs</DependentUpon>
+    <Compile Include="HoaDon.Designer.cs">
+      <DependentUpon>HoaDon.cs</DependentUpon>
     </Compile>
     <Compile Include="KhachHangDangNhap.cs">
       <SubType>Form</SubType>
@@ -180,11 +180,11 @@
     <Compile Include="QuenMatKhau.Designer.cs">
       <DependentUpon>QuenMatKhau.cs</DependentUpon>
     </Compile>
-    <Compile Include="test.cs">
+    <Compile Include="themdonhang.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="test.Designer.cs">
-      <DependentUpon>test.cs</DependentUpon>
+    <Compile Include="themdonhang.Designer.cs">
+      <DependentUpon>themdonhang.cs</DependentUpon>
     </Compile>
     <Compile Include="ThongTinNVien.cs">
       <SubType>UserControl</SubType>
@@ -210,8 +210,8 @@
     <EmbeddedResource Include="DonHang.resx">
       <DependentUpon>DonHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GioHang.resx">
-      <DependentUpon>GioHang.cs</DependentUpon>
+    <EmbeddedResource Include="HoaDon.resx">
+      <DependentUpon>HoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KhachHangDangNhap.resx">
       <DependentUpon>KhachHangDangNhap.cs</DependentUpon>
@@ -268,8 +268,8 @@
     <EmbeddedResource Include="QuenMatKhau.resx">
       <DependentUpon>QuenMatKhau.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="test.resx">
-      <DependentUpon>test.cs</DependentUpon>
+    <EmbeddedResource Include="themdonhang.resx">
+      <DependentUpon>themdonhang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThongTinNVien.resx">
       <DependentUpon>ThongTinNVien.cs</DependentUpon>
@@ -296,6 +296,7 @@
     <Content Include="HinhAnh\duigarann.jpg" />
     <Content Include="HinhAnh\duiiga.jpg" />
     <Content Include="HinhAnh\garan.jpg" />
+    <Content Include="HinhAnh\giohang.jpg" />
     <Content Include="HinhAnh\khoaitaychien.jpg" />
     <Content Include="HinhAnh\khoaitaylac.jpg" />
     <Content Include="HinhAnh\logo.jpg" />

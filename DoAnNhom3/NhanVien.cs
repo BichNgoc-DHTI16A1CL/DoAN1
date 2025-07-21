@@ -26,5 +26,10 @@ namespace DoAnNhom3
         {
 
         }
+
+        private void NhanVien_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
